@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "airtable-streamlit"
+version = "0.1.0"
+description = "Access Airtable data via Streamlit"
+authors = ["SiData+"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+streamlit = "^0.79.0"
+requests = "^2.25.1"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
