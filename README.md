@@ -10,13 +10,21 @@ Requirements
 - Poetry
 - Python 3.9
 
-To install dependencies
+### To install dependencies
 
 ```{bash}
 poetry install
 ```
 
-To run Streamlit app
+### To add Airtable API Key
+
+```{bash}
+cp .streamlit/secrets.example.toml .streamlit/secrets.toml
+```
+
+Then, add the key in the file. You may request the key for the demo by requesting access to this table https://airtable.com/shrgCbVCeTbLNjLA4.
+
+### To run Streamlit app
 
 ```{bash}
 poetry run streamlit run airtable-streamlit.py
