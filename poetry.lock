@@ -704,6 +704,14 @@ optional = false
 python-versions = ">=3.5"
 
 [[package]]
+name = "pympler"
+version = "1.0.1"
+description = "A development tool to measure, monitor and analyze the memory behavior of Python objects."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
 name = "pyparsing"
 version = "2.4.7"
 description = "Python parsing module"
@@ -810,7 +818,7 @@ python-versions = ">=3.5"
 
 [[package]]
 name = "streamlit"
-version = "1.0.0"
+version = "1.4.0"
 description = "The fastest way to build data apps in Python"
 category = "main"
 optional = false
@@ -823,7 +831,7 @@ attrs = "*"
 base58 = "*"
 blinker = "*"
 cachetools = ">=4.0"
-click = ">=7.0,<8.0"
+click = ">=7.0"
 gitpython = "!=3.1.19"
 numpy = "*"
 packaging = "*"
@@ -832,6 +840,7 @@ pillow = ">=6.2.0"
 protobuf = ">=3.6.0,<3.11 || >3.11"
 pyarrow = "*"
 pydeck = ">=0.1.dev5"
+pympler = ">=0.9"
 python-dateutil = "*"
 requests = "*"
 toml = "*"
@@ -993,7 +1002,7 @@ notebook = ">=4.4.1"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "8fb4601a5c9f9f63a77b5ed39940a5a15b50584afe88b5178d07e8b784c5c392"
+content-hash = "27f5e2fdf45fd4b7c5bf77da95c9d5b067c750c0a56e49338351656e42f4648c"
 
 [metadata.files]
 altair = [
@@ -1437,6 +1446,10 @@ pygments = [
     {file = "Pygments-2.9.0-py3-none-any.whl", hash = "sha256:d66e804411278594d764fc69ec36ec13d9ae9147193a1740cd34d272ca383b8e"},
     {file = "Pygments-2.9.0.tar.gz", hash = "sha256:a18f47b506a429f6f4b9df81bb02beab9ca21d0a5fee38ed15aef65f0545519f"},
 ]
+pympler = [
+    {file = "Pympler-1.0.1-py3-none-any.whl", hash = "sha256:d260dda9ae781e1eab6ea15bacb84015849833ba5555f141d2d9b7b7473b307d"},
+    {file = "Pympler-1.0.1.tar.gz", hash = "sha256:993f1a3599ca3f4fcd7160c7545ad06310c9e12f70174ae7ae8d4e25f6c5d3fa"},
+]
 pyparsing = [
     {file = "pyparsing-2.4.7-py2.py3-none-any.whl", hash = "sha256:ef9d7589ef3c200abe66653d3f1ab1033c3c419ae9b9bdb1240a85b024efc88b"},
     {file = "pyparsing-2.4.7.tar.gz", hash = "sha256:c203ec8783bf771a155b207279b9bccb8dea02d8f0c9e5f8ead507bc3246ecc1"},
@@ -1527,8 +1540,8 @@ smmap = [
     {file = "smmap-4.0.0.tar.gz", hash = "sha256:7e65386bd122d45405ddf795637b7f7d2b532e7e401d46bbe3fb49b9986d5182"},
 ]
 streamlit = [
-    {file = "streamlit-1.0.0-py2.py3-none-any.whl", hash = "sha256:1cf88c7dc278d70136138bf3ee3e0dd8a185bc5a4375479c1ad871865b02aa12"},
-    {file = "streamlit-1.0.0.tar.gz", hash = "sha256:f94f8f588e70471377a7ecf8d994efc045cc3c10c00b74220d90032517294a91"},
+    {file = "streamlit-1.4.0-py2.py3-none-any.whl", hash = "sha256:0f98c55194cabca3642752730a149dc07f4edf4abc56f2fffc67ed97b0d55a0c"},
+    {file = "streamlit-1.4.0.tar.gz", hash = "sha256:8cdb4c008ff63dc4522e86aed142912de53647244d97f82766a23dfee6ffe564"},
 ]
 terminado = [
     {file = "terminado-0.9.5-py3-none-any.whl", hash = "sha256:3838414888b49a96145e277fd707a26a0fdb4bdaba88bb677a44abb68e3a1041"},
