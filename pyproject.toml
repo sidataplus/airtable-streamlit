@@ -6,7 +6,7 @@ authors = ["SiData+"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-streamlit = "^1.8.0"
+streamlit = "^1.9.0"
 requests = "^2.27.1"
 
 
